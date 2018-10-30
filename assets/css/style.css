@@ -5,7 +5,7 @@ body {
     font-size: 14px;
     font-weight: 400;
 }
-.nav-item {
+.navbar-nav a {
     color: #212529;
 }
 .intro {
