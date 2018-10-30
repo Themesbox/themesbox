@@ -3,9 +3,9 @@ body {
 }
 .navbar-nav, .navbar-text {
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
 }
-.navbar-nav .nav-link {
+.navbar-nav .nav-link a {
     color: #212529;
 }
 .intro {
