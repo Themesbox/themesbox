@@ -1,12 +1,15 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
+.navbar-nav {
+    font-weight: 400;
+}
 .intro {
     height: 100vh;
 }
 .intro .display-4 {
     font-weight: 700;
 }
-.intro p, .navbar-nav {
-    font-weight: 400;
+.intro p {
+    font-weight: 300;
 }
