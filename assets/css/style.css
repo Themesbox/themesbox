@@ -11,6 +11,9 @@ body {
 .intro .display-4 {
     font-weight: 700;
 }
-.intro p, .intro .btn-lg {
+.intro p{
     font-weight: 300;
+}
+.intro .btn-lg {
+    font-weight: 400;
 }
