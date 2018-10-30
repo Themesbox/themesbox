@@ -4,6 +4,7 @@ body {
 .navbar-nav {
     font-size: 14px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 .intro {
     height: 100vh;
