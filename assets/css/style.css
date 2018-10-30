@@ -7,6 +7,6 @@ body {
 .intro .display-4 {
     font-weight: 700;
 }
-.intro  {
+.intro p, .navbar-nav {
     font-weight: 300;
 }
