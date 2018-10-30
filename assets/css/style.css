@@ -6,7 +6,7 @@ body {
     font-weight: 400;
 }
 .intro {
-    height: 100vh;
+    height: calc(100vh - 59px);
 }
 .intro .display-4 {
     font-weight: 700;
