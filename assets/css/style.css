@@ -1,4 +1,9 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
 .intro {
     height: 100vh;
 }
-
+.intro .display-4 {
+    font-weight: 700;
+}
