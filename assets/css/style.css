@@ -4,6 +4,7 @@ body {
 .navbar-nav, .navbar-text {
     font-size: 14px;
     font-weight: 300;
+    text-transform: uppercase;
 }
 .navbar-light .navbar-nav .nav-link {
     color: #212529;
