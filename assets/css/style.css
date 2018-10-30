@@ -6,6 +6,9 @@ body {
     font-weight: 300;
     color: #212529;
 }
+.navbar-nav .nav-link {
+    color: #212529;
+}
 .intro {
     height: calc(100vh - 59px);
 }
