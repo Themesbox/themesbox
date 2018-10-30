@@ -3,7 +3,7 @@ body {
 }
 .navbar-nav, .navbar-text {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 300;
 }
 .intro {
     height: calc(100vh - 59px);
@@ -13,9 +13,4 @@ body {
 }
 .intro p {
     font-weight: 300;
-}
-.intro .btn {
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-transform: uppercase;
 }
