@@ -37,3 +37,6 @@ body {
 
 .float {animation: float_5899 4s linear infinite;transform-origin: 50% 50%;}
 @-webkit-keyframes float_5899 {0% { transform: translateY(0) } 25% { transform: translateY(-6px) } 50% { transform: translateY(0) } 100% { transform: translateY(0) }}
+
+.horizontal {animation: horizontal_5146 2.72s ease infinite;transform-origin: 50% 50%;}
+@keyframes horizontal_5146 { 0% { transform:translate(0,0) } 4.41177% { transform:translate(5px,0) } 8.82353% { transform:translate(0,0) } 13.23529% { transform:translate(5px,0) } 17.64706% { transform:translate(0,0) } 22.05882% { transform:translate(5px,0) } 26.47059% { transform:translate(0,0) } 100% { transform:translate(0,0) } }
