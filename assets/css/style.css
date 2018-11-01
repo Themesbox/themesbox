@@ -40,3 +40,33 @@ body {
 
 .horizontal {animation: horizontal_5146 2.72s ease infinite;transform-origin: 50% 50%;}
 @keyframes horizontal_5146 { 0% { transform:translate(0,0) } 4.41177% { transform:translate(5px,0) } 8.82353% { transform:translate(0,0) } 13.23529% { transform:translate(5px,0) } 17.64706% { transform:translate(0,0) } 22.05882% { transform:translate(5px,0) } 26.47059% { transform:translate(0,0) } 100% { transform:translate(0,0) } }
+
+/* Underline From Left */
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #2098D1;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}
