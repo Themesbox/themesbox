@@ -1,9 +1,6 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
-.main-header {
-    z-index: 1071;
-}
 .nav {
     font-size: 14px;
     font-weight: 300;
