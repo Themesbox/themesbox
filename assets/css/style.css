@@ -1,12 +1,12 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
 }
-.navbar-nav, .navbar-text {
+.nav {
     font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
 }
-.navbar-light .navbar-nav .nav-link {
+.nav .nav-link {
     color: #212529;
 }
 .intro {
