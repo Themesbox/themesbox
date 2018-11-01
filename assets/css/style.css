@@ -10,7 +10,7 @@ body {
     color: #212529;
 }
 .intro {
-    heigh: calc(100vh - 106px);
+    height: 600px;
 }
 .intro .display-4 {
     font-weight: 700;
