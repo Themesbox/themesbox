@@ -18,11 +18,12 @@ body {
 .intro p {
     font-weight: 300;
 }
-
-
-
-
-
+@media (min-width: 768px) {
+    
+     .intro {
+         height: 400px;
+     }
+}
 
 
 /* ----------------------------------------------
