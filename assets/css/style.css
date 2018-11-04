@@ -15,7 +15,7 @@ body {
 .intro .display-4 {
     font-weight: 700;
 }
-.intro p {
+.intro p, .card-text {
     font-weight: 300;
 }
 @media (max-width: 767px) {
