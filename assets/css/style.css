@@ -10,6 +10,10 @@ body {
     color: #212529;
 }
 .intro {
+    background-image: url('../img/bg.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
     height: 600px;
 }
 .intro .display-4 {
